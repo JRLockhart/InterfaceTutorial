@@ -4,6 +4,7 @@ namespace ConsoleApp1
 {
     class Bee : IStingPatrol
     {
+        //if methods arn't implemented the app will throw a compile error
         int IStingPatrol.AlertLevel => throw new NotImplementedException();
 
         int IStingPatrol.StingerLength { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
